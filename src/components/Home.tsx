@@ -35,7 +35,7 @@ export function Home({ data, onChange, go, beforeExport }: Props) {
     <div className="mx-auto flex max-w-2xl flex-col gap-6 p-4">
       <section aria-labelledby="new-h" className="flex flex-col gap-3">
         <h2 id="new-h" className="text-2xl font-extrabold">
-          Quiz Tracker
+          Make a quiz
         </h2>
         <p className="text-slate-700">
           Build any quiz or party game, host it on one screen, keep one scoreboard.
