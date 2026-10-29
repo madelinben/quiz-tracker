@@ -77,7 +77,7 @@ function Questions({ round, play, onPlay }: Of<"questions">) {
       {q.image && (
         <img
           src={q.image}
-          alt="Picture for this question"
+          alt={`Question ${i + 1}`}
           className="max-h-[50vh] self-start rounded-xl object-contain"
         />
       )}
